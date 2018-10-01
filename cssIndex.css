@@ -22,12 +22,16 @@ body{
     height: 50%;
     background-color: aliceblue;
 }
-.picture{
+#content{
     position: relative;
-    margin-top: 10em;
-    width: 30%;
+    top: 10em;
+    width: 100%;
+    height: 50%;
+    background-color: black;
 }
 
-.classDisplayNone{
-    display: none;
+#content img{
+    position: absolute;
+    width: 100%;
+    height: 10%;
 }
