@@ -2,13 +2,39 @@
 <html lang="en">
     <head>
         <!-- here -->
+
+        <!-- here is another comment -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>changingMoney</title>
-        <link href="cssIndex.css">
+        <link  rel="stylesheet" href="cssIndex.css">
+        <script src="js.js"></script>
     </head>
     <body>
+        <div class="flexContent">
+            <div class="flexItemOne">
+                <label>Swedish sek</label><br>
+                <input  id="swedish"type="number" size="30px" value=1><br>
+                <button type="button" onclick="SwedishUsd()">swedish/usd</button><br>
+                <label>Usd</label><br>
+                <input id="usd" type="number" size="30px"><br>
+            </div>
+            <div class="flexItemTwo">
+                <label>Usd</label><br>
+                <input type="number" size="30px"><br>
+                <button type="button" onclick="Usd/swedish()">swedish/usd</button><br>
+                <label>Swedish sek</label><br>
+                <input type="number" size="30px">
+            </div>
+        </div>
+        <div id="content">
+            <img  id ="pictureTimer" class="picture" src="download.jpg">
+            <img class="picture" src="download.jpg">
+            <img class="picture" src="download.jpg">
+            <button type="button" onclick="myPictureSlide()">click here</button>
+
+        </div>
         
     </body>
 </html>

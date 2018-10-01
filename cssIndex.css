@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    
+}
+
+.flexContent{
+    position: fixed;
+    top: 1em;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+
+.flexContent .flexItemOne{
+    width: 50%;
+    height: 50%;
+    background-color: aliceblue;
+}
+.flexContent .flexItemTwo{
+    width: 50%;
+    height: 50%;
+    background-color: aliceblue;
+}
+.picture{
+    position: relative;
+    margin-top: 10em;
+    width: 30%;
+}
+
+.classDisplayNone{
+    display: none;
+}
